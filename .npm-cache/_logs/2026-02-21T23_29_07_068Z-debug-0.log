@@ -1,0 +1,1482 @@
+0 verbose cli /Users/xavierleffler/.nvm/versions/node/v24.4.0/bin/node /Users/xavierleffler/.nvm/versions/node/v24.4.0/bin/npm
+1 info using npm@11.10.1
+2 info using node@v24.4.0
+3 silly config load:file:/Users/xavierleffler/.nvm/versions/node/v24.4.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/xavierleffler/Projects/conference-realignment-tool/.npmrc
+5 silly config load:file:/Users/xavierleffler/.npmrc
+6 silly config load:file:/Users/xavierleffler/.nvm/versions/node/v24.4.0/etc/npmrc
+7 verbose title npm audit fix
+8 verbose argv "audit" "fix" "--force"
+9 verbose logfile logs-max:10 dir:/Users/xavierleffler/Projects/conference-realignment-tool/.npm-cache/_logs/2026-02-21T23_29_07_068Z-
+10 verbose logfile /Users/xavierleffler/Projects/conference-realignment-tool/.npm-cache/_logs/2026-02-21T23_29_07_068Z-debug-0.log
+11 warn using --force Recommended protections disabled.
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly audit bulk request {
+14 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+14 silly audit   '@babel/runtime': [ '7.28.6' ],
+14 silly audit   '@babel/runtime-corejs3': [ '7.29.0' ],
+14 silly audit   '@emnapi/core': [ '1.7.1' ],
+14 silly audit   '@emnapi/runtime': [ '1.7.1' ],
+14 silly audit   '@emnapi/wasi-threads': [ '1.1.0' ],
+14 silly audit   '@eslint-community/eslint-utils': [ '4.9.1' ],
+14 silly audit   'eslint-visitor-keys': [ '3.4.3', '2.1.0', '5.0.1' ],
+14 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+14 silly audit   '@eslint/config-array': [ '0.23.2' ],
+14 silly audit   '@eslint/config-helpers': [ '0.5.2' ],
+14 silly audit   '@eslint/core': [ '1.1.0' ],
+14 silly audit   '@eslint/object-schema': [ '3.0.2' ],
+14 silly audit   '@eslint/plugin-kit': [ '0.6.0' ],
+14 silly audit   '@humanfs/core': [ '0.19.1' ],
+14 silly audit   '@humanfs/node': [ '0.16.7' ],
+14 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+14 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+14 silly audit   '@img/colour': [ '1.0.0' ],
+14 silly audit   '@img/sharp-darwin-arm64': [ '0.34.5' ],
+14 silly audit   '@img/sharp-darwin-x64': [ '0.34.5' ],
+14 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.4' ],
+14 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.4' ],
+14 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.4' ],
+14 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.4' ],
+14 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.4' ],
+14 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.2.4' ],
+14 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.4' ],
+14 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.4' ],
+14 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.4' ],
+14 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.4' ],
+14 silly audit   '@img/sharp-linux-arm': [ '0.34.5' ],
+14 silly audit   '@img/sharp-linux-arm64': [ '0.34.5' ],
+14 silly audit   '@img/sharp-linux-ppc64': [ '0.34.5' ],
+14 silly audit   '@img/sharp-linux-riscv64': [ '0.34.5' ],
+14 silly audit   '@img/sharp-linux-s390x': [ '0.34.5' ],
+14 silly audit   '@img/sharp-linux-x64': [ '0.34.5' ],
+14 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.5' ],
+14 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.5' ],
+14 silly audit   '@img/sharp-wasm32': [ '0.34.5' ],
+14 silly audit   '@img/sharp-win32-arm64': [ '0.34.5' ],
+14 silly audit   '@img/sharp-win32-ia32': [ '0.34.5' ],
+14 silly audit   '@img/sharp-win32-x64': [ '0.34.5' ],
+14 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+14 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+14 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+14 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+14 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+14 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+14 silly audit   '@next/env': [ '16.1.6' ],
+14 silly audit   '@next/eslint-plugin-next': [ '12.0.4' ],
+14 silly audit   '@next/swc-darwin-arm64': [ '16.1.6' ],
+14 silly audit   '@next/swc-darwin-x64': [ '16.1.6' ],
+14 silly audit   '@next/swc-linux-arm64-gnu': [ '16.1.6' ],
+14 silly audit   '@next/swc-linux-arm64-musl': [ '16.1.6' ],
+14 silly audit   '@next/swc-linux-x64-gnu': [ '16.1.6' ],
+14 silly audit   '@next/swc-linux-x64-musl': [ '16.1.6' ],
+14 silly audit   '@next/swc-win32-arm64-msvc': [ '16.1.6' ],
+14 silly audit   '@next/swc-win32-x64-msvc': [ '16.1.6' ],
+14 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+14 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+14 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+14 silly audit   '@rtsao/scc': [ '1.1.0' ],
+14 silly audit   '@rushstack/eslint-patch': [ '1.16.1' ],
+14 silly audit   '@swc/helpers': [ '0.5.15' ],
+14 silly audit   '@tailwindcss/node': [ '4.1.17' ],
+14 silly audit   '@tailwindcss/oxide': [ '4.1.17' ],
+14 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.17' ],
+14 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.17' ],
+14 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.17' ],
+14 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.17' ],
+14 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.17' ],
+14 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.17' ],
+14 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.17' ],
+14 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.17' ],
+14 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.17' ],
+14 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.17' ],
+14 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.17' ],
+14 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.17' ],
+14 silly audit   '@tailwindcss/postcss': [ '4.1.17' ],
+14 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+14 silly audit   '@types/esrecurse': [ '4.3.1' ],
+14 silly audit   '@types/estree': [ '1.0.8' ],
+14 silly audit   '@types/json-schema': [ '7.0.15' ],
+14 silly audit   '@types/json5': [ '0.0.29' ],
+14 silly audit   '@types/node': [ '20.19.25' ],
+14 silly audit   '@types/react': [ '19.2.7' ],
+14 silly audit   '@types/react-dom': [ '19.2.3' ],
+14 silly audit   '@typescript-eslint/scope-manager': [ '4.33.0' ],
+14 silly audit   '@typescript-eslint/types': [ '4.33.0' ],
+14 silly audit   '@typescript-eslint/typescript-estree': [ '4.33.0' ],
+14 silly audit   semver: [ '7.7.4', '6.3.1', '7.7.3' ],
+14 silly audit   '@typescript-eslint/visitor-keys': [ '4.33.0' ],
+14 silly audit   acorn: [ '8.16.0' ],
+14 silly audit   'acorn-jsx': [ '5.3.2' ],
+14 silly audit   ajv: [ '6.14.0' ],
+14 silly audit   'aria-query': [ '4.2.2' ],
+14 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+14 silly audit   'array-includes': [ '3.1.9' ],
+14 silly audit   'array-union': [ '2.1.0' ],
+14 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+14 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+14 silly audit   'array.prototype.flat': [ '1.3.3' ],
+14 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+14 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+14 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+14 silly audit   'ast-types-flow': [ '0.0.7' ],
+14 silly audit   'async-function': [ '1.0.0' ],
+14 silly audit   'available-typed-arrays': [ '1.0.7' ],
+14 silly audit   'axe-core': [ '4.11.1' ],
+14 silly audit   'axobject-query': [ '2.2.0' ],
+14 silly audit   'balanced-match': [ '4.0.3', '1.0.2' ],
+14 silly audit   'baseline-browser-mapping': [ '2.10.0' ],
+14 silly audit   'brace-expansion': [ '5.0.2', '1.1.12' ],
+14 silly audit   braces: [ '3.0.3' ],
+14 silly audit   'call-bind': [ '1.0.8' ],
+14 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+14 silly audit   'call-bound': [ '1.0.4' ],
+14 silly audit   'caniuse-lite': [ '1.0.30001757' ],
+14 silly audit   'client-only': [ '0.0.1' ],
+14 silly audit   'concat-map': [ '0.0.1' ],
+14 silly audit   'core-js-pure': [ '3.48.0' ],
+14 silly audit   'cross-spawn': [ '7.0.6' ],
+14 silly audit   csstype: [ '3.2.3' ],
+14 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+14 silly audit   'data-view-buffer': [ '1.0.2' ],
+14 silly audit   'data-view-byte-length': [ '1.0.2' ],
+14 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+14 silly audit   debug: [ '4.4.3', '3.2.7' ],
+14 silly audit   'deep-is': [ '0.1.4' ],
+14 silly audit   'define-data-property': [ '1.1.4' ],
+14 silly audit   'define-properties': [ '1.2.1' ],
+14 silly audit   'detect-libc': [ '2.1.2' ],
+14 silly audit   'dir-glob': [ '3.0.1' ],
+14 silly audit   doctrine: [ '2.1.0' ],
+14 silly audit   'dunder-proto': [ '1.0.1' ],
+14 silly audit   'emoji-regex': [ '9.2.2' ],
+14 silly audit   'enhanced-resolve': [ '5.18.3' ],
+14 silly audit   'es-abstract': [ '1.24.1' ],
+14 silly audit   'es-define-property': [ '1.0.1' ],
+14 silly audit   'es-errors': [ '1.3.0' ],
+14 silly audit   'es-iterator-helpers': [ '1.2.2' ],
+14 silly audit   'es-object-atoms': [ '1.1.1' ],
+14 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+14 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+14 silly audit   'es-to-primitive': [ '1.3.0' ],
+14 silly audit   'escape-string-regexp': [ '4.0.0' ],
+14 silly audit   eslint: [ '10.0.1' ],
+14 silly audit   'eslint-config-next': [ '12.0.4' ],
+14 silly audit   '@typescript-eslint/parser': [ '4.33.0' ],
+14 silly audit   'eslint-import-resolver-typescript': [ '2.7.1' ],
+14 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+14 silly audit   'eslint-plugin-jsx-a11y': [ '6.4.1' ],
+14 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+14 silly audit   'eslint-plugin-react-hooks': [ '4.6.2' ],
+14 silly audit   resolve: [ '2.0.0-next.6', '1.22.11' ],
+14 silly audit   glob: [ '7.2.3', '7.1.7' ],
+14 silly audit   minimatch: [ '3.1.2', '10.2.2' ],
+14 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+14 silly audit   'eslint-module-utils': [ '2.12.1' ],
+14 silly audit   'eslint-scope': [ '9.1.1' ],
+14 silly audit   espree: [ '11.1.1' ],
+14 silly audit   esquery: [ '1.7.0' ],
+14 silly audit   esrecurse: [ '4.3.0' ],
+14 silly audit   estraverse: [ '5.3.0' ],
+14 silly audit   esutils: [ '2.0.3' ],
+14 silly audit   'fast-deep-equal': [ '3.1.3' ],
+14 silly audit   'fast-glob': [ '3.3.3' ],
+14 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+14 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+14 silly audit   'fast-levenshtein': [ '2.0.6' ],
+14 silly audit   fastq: [ '1.20.1' ],
+14 silly audit   'file-entry-cache': [ '8.0.0' ],
+14 silly audit   'fill-range': [ '7.1.1' ],
+14 silly audit   'find-up': [ '5.0.0' ],
+14 silly audit   'flat-cache': [ '4.0.1' ],
+14 silly audit   flatted: [ '3.3.3' ],
+14 silly audit   'for-each': [ '0.3.5' ],
+14 silly audit   'fs.realpath': [ '1.0.0' ],
+14 silly audit   'function-bind': [ '1.1.2' ],
+14 silly audit   'function.prototype.name': [ '1.1.8' ],
+14 silly audit   'functions-have-names': [ '1.2.3' ],
+14 silly audit   'generator-function': [ '2.0.1' ],
+14 silly audit   'get-intrinsic': [ '1.3.0' ],
+14 silly audit   'get-proto': [ '1.0.1' ],
+14 silly audit   'get-symbol-description': [ '1.1.0' ],
+14 silly audit   globalthis: [ '1.0.4' ],
+14 silly audit   globby: [ '11.1.0' ],
+14 silly audit   gopd: [ '1.2.0' ],
+14 silly audit   'graceful-fs': [ '4.2.11' ],
+14 silly audit   has: [ '1.0.4' ],
+14 silly audit   'has-bigints': [ '1.1.0' ],
+14 silly audit   'has-property-descriptors': [ '1.0.2' ],
+14 silly audit   'has-proto': [ '1.2.0' ],
+14 silly audit   'has-symbols': [ '1.1.0' ],
+14 silly audit   'has-tostringtag': [ '1.0.2' ],
+14 silly audit   hasown: [ '2.0.2' ],
+14 silly audit   ignore: [ '5.3.2' ],
+14 silly audit   imurmurhash: [ '0.1.4' ],
+14 silly audit   inflight: [ '1.0.6' ],
+14 silly audit   inherits: [ '2.0.4' ],
+14 silly audit   'internal-slot': [ '1.1.0' ],
+14 silly audit   'is-array-buffer': [ '3.0.5' ],
+14 silly audit   'is-async-function': [ '2.1.1' ],
+14 silly audit   'is-bigint': [ '1.1.0' ],
+14 silly audit   'is-boolean-object': [ '1.2.2' ],
+14 silly audit   'is-callable': [ '1.2.7' ],
+14 silly audit   'is-core-module': [ '2.16.1' ],
+14 silly audit   'is-data-view': [ '1.0.2' ],
+14 silly audit   'is-date-object': [ '1.1.0' ],
+14 silly audit   'is-extglob': [ '2.1.1' ],
+14 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+14 silly audit   'is-generator-function': [ '1.1.2' ],
+14 silly audit   'is-glob': [ '4.0.3' ],
+14 silly audit   'is-map': [ '2.0.3' ],
+14 silly audit   'is-negative-zero': [ '2.0.3' ],
+14 silly audit   'is-number': [ '7.0.0' ],
+14 silly audit   'is-number-object': [ '1.1.1' ],
+14 silly audit   'is-regex': [ '1.2.1' ],
+14 silly audit   'is-set': [ '2.0.3' ],
+14 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+14 silly audit   'is-string': [ '1.1.1' ],
+14 silly audit   'is-symbol': [ '1.1.1' ],
+14 silly audit   'is-typed-array': [ '1.1.15' ],
+14 silly audit   'is-weakmap': [ '2.0.2' ],
+14 silly audit   'is-weakref': [ '1.1.1' ],
+14 silly audit   'is-weakset': [ '2.0.4' ],
+14 silly audit   isarray: [ '2.0.5' ],
+14 silly audit   isexe: [ '2.0.0' ],
+14 silly audit   'iterator.prototype': [ '1.1.5' ],
+14 silly audit   jiti: [ '2.6.1' ],
+14 silly audit   'js-tokens': [ '4.0.0' ],
+14 silly audit   'json-buffer': [ '3.0.1' ],
+14 silly audit   'json-schema-traverse': [ '0.4.1' ],
+14 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+14 silly audit   json5: [ '1.0.2' ],
+14 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+14 silly audit   keyv: [ '4.5.4' ],
+14 silly audit   'language-subtag-registry': [ '0.3.23' ],
+14 silly audit   'language-tags': [ '1.0.9' ],
+14 silly audit   levn: [ '0.4.1' ],
+14 silly audit   lightningcss: [ '1.30.2' ],
+14 silly audit   'lightningcss-android-arm64': [ '1.30.2' ],
+14 silly audit   'lightningcss-darwin-arm64': [ '1.30.2' ],
+14 silly audit   'lightningcss-darwin-x64': [ '1.30.2' ],
+14 silly audit   'lightningcss-freebsd-x64': [ '1.30.2' ],
+14 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.2' ],
+14 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.2' ],
+14 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.2' ],
+14 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.2' ],
+14 silly audit   'lightningcss-linux-x64-musl': [ '1.30.2' ],
+14 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.2' ],
+14 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.2' ],
+14 silly audit   'locate-path': [ '6.0.0' ],
+14 silly audit   'loose-envify': [ '1.4.0' ],
+14 silly audit   'magic-string': [ '0.30.21' ],
+14 silly audit   'math-intrinsics': [ '1.1.0' ],
+14 silly audit   merge2: [ '1.4.1' ],
+14 silly audit   micromatch: [ '4.0.8' ],
+14 silly audit   minimist: [ '1.2.8' ],
+14 silly audit   ms: [ '2.1.3' ],
+14 silly audit   nanoid: [ '3.3.11' ],
+14 silly audit   'natural-compare': [ '1.4.0' ],
+14 silly audit   next: [ '16.1.6' ],
+14 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+14 silly audit   'node-exports-info': [ '1.6.0' ],
+14 silly audit   'object-assign': [ '4.1.1' ],
+14 silly audit   'object-inspect': [ '1.13.4' ],
+14 silly audit   'object-keys': [ '1.1.1' ],
+14 silly audit   'object.assign': [ '4.1.7' ],
+14 silly audit   'object.entries': [ '1.1.9' ],
+14 silly audit   'object.fromentries': [ '2.0.8' ],
+14 silly audit   'object.groupby': [ '1.0.3' ],
+14 silly audit   'object.values': [ '1.2.1' ],
+14 silly audit   once: [ '1.4.0' ],
+14 silly audit   optionator: [ '0.9.4' ],
+14 silly audit   'own-keys': [ '1.0.1' ],
+14 silly audit   'p-limit': [ '3.1.0' ],
+14 silly audit   'p-locate': [ '5.0.0' ],
+14 silly audit   'path-exists': [ '4.0.0' ],
+14 silly audit   'path-is-absolute': [ '1.0.1' ],
+14 silly audit   'path-key': [ '3.1.1' ],
+14 silly audit   'path-parse': [ '1.0.7' ],
+14 silly audit   'path-type': [ '4.0.0' ],
+14 silly audit   picocolors: [ '1.1.1' ],
+14 silly audit   picomatch: [ '2.3.1' ],
+14 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+14 silly audit   'prelude-ls': [ '1.2.1' ],
+14 silly audit   'prop-types': [ '15.8.1' ],
+14 silly audit   punycode: [ '2.3.1' ],
+14 silly audit   'queue-microtask': [ '1.2.3' ],
+14 silly audit   react: [ '19.2.0' ],
+14 silly audit   'react-dom': [ '19.2.0' ],
+14 silly audit   'react-is': [ '16.13.1' ],
+14 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+14 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+14 silly audit   reusify: [ '1.1.0' ],
+14 silly audit   'run-parallel': [ '1.2.0' ],
+14 silly audit   'safe-array-concat': [ '1.1.3' ],
+14 silly audit   'safe-push-apply': [ '1.0.0' ],
+14 silly audit   'safe-regex-test': [ '1.1.0' ],
+14 silly audit   scheduler: [ '0.27.0' ],
+14 silly audit   'set-function-length': [ '1.2.2' ],
+14 silly audit   'set-function-name': [ '2.0.2' ],
+14 silly audit   'set-proto': [ '1.0.0' ],
+14 silly audit   sharp: [ '0.34.5' ],
+14 silly audit   'shebang-command': [ '2.0.0' ],
+14 silly audit   'shebang-regex': [ '3.0.0' ],
+14 silly audit   'side-channel': [ '1.1.0' ],
+14 silly audit   'side-channel-list': [ '1.0.0' ],
+14 silly audit   'side-channel-map': [ '1.0.1' ],
+14 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+14 silly audit   slash: [ '3.0.0' ],
+14 silly audit   'source-map-js': [ '1.2.1' ],
+14 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+14 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+14 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+14 silly audit   'string.prototype.trim': [ '1.2.10' ],
+14 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+14 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+14 silly audit   'strip-bom': [ '3.0.0' ],
+14 silly audit   'styled-jsx': [ '5.1.6' ],
+14 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+14 silly audit   tailwindcss: [ '4.1.17' ],
+14 silly audit   tapable: [ '2.3.0' ],
+14 silly audit   'to-regex-range': [ '5.0.1' ],
+14 silly audit   'tsconfig-paths': [ '3.15.0' ],
+14 silly audit   tslib: [ '2.8.1', '1.14.1' ],
+14 silly audit   tsutils: [ '3.21.0' ],
+14 silly audit   'type-check': [ '0.4.0' ],
+14 silly audit   'typed-array-buffer': [ '1.0.3' ],
+14 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+14 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+14 silly audit   'typed-array-length': [ '1.0.7' ],
+14 silly audit   typescript: [ '5.9.3' ],
+14 silly audit   'unbox-primitive': [ '1.1.0' ],
+14 silly audit   'undici-types': [ '6.21.0' ],
+14 silly audit   'uri-js': [ '4.4.1' ],
+14 silly audit   which: [ '2.0.2' ],
+14 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+14 silly audit   'which-builtin-type': [ '1.2.1' ],
+14 silly audit   'which-collection': [ '1.0.2' ],
+14 silly audit   'which-typed-array': [ '1.1.19' ],
+14 silly audit   'word-wrap': [ '1.2.5' ],
+14 silly audit   wrappy: [ '1.0.2' ],
+14 silly audit   'yocto-queue': [ '0.1.0' ]
+14 silly audit }
+15 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 184ms
+16 silly audit report {
+16 silly audit report   minimatch: [
+16 silly audit report     {
+16 silly audit report       id: 1113371,
+16 silly audit report       url: 'https://github.com/advisories/GHSA-3ppc-4f35-3m26',
+16 silly audit report       title: 'minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern',
+16 silly audit report       severity: 'high',
+16 silly audit report       vulnerable_versions: '<10.2.1',
+16 silly audit report       cwe: [Array],
+16 silly audit report       cvss: [Object]
+16 silly audit report     }
+16 silly audit report   ]
+16 silly audit report }
+17 silly packumentCache corgi:https://registry.npmjs.org/minimatch cache-miss
+18 http cache https://registry.npmjs.org/minimatch 6ms (cache hit)
+19 silly packumentCache corgi:https://registry.npmjs.org/minimatch set size:149210 disposed:false
+20 silly packumentCache corgi:https://registry.npmjs.org/eslint-plugin-import cache-miss
+21 silly packumentCache corgi:https://registry.npmjs.org/eslint-plugin-react cache-miss
+22 silly packumentCache corgi:https://registry.npmjs.org/glob cache-miss
+23 http cache https://registry.npmjs.org/eslint-plugin-import 4ms (cache hit)
+24 silly packumentCache corgi:https://registry.npmjs.org/eslint-plugin-import set size:238396 disposed:false
+25 http cache https://registry.npmjs.org/eslint-plugin-react 6ms (cache hit)
+26 silly packumentCache corgi:https://registry.npmjs.org/eslint-plugin-react set size:309843 disposed:false
+27 http cache https://registry.npmjs.org/glob 10ms (cache hit)
+28 silly packumentCache corgi:https://registry.npmjs.org/glob set size:199194 disposed:false
+29 silly packumentCache corgi:https://registry.npmjs.org/eslint-config-next cache-miss
+30 silly packumentCache corgi:https://registry.npmjs.org/eslint-import-resolver-typescript cache-miss
+31 http cache https://registry.npmjs.org/eslint-import-resolver-typescript 3ms (cache hit)
+32 silly packumentCache corgi:https://registry.npmjs.org/eslint-import-resolver-typescript set size:138502 disposed:false
+33 http cache https://registry.npmjs.org/eslint-config-next 8ms (cache hit)
+34 silly packumentCache corgi:https://registry.npmjs.org/eslint-config-next set size:3712939 disposed:false
+35 silly packumentCache corgi:https://registry.npmjs.org/@next%2feslint-plugin-next cache-miss
+36 http cache https://registry.npmjs.org/@next%2feslint-plugin-next 7ms (cache hit)
+37 silly packumentCache corgi:https://registry.npmjs.org/@next%2feslint-plugin-next set size:3110376 disposed:false
+38 warn audit Updating eslint-config-next to 0.2.4, which is a SemVer major change.
+39 silly idealTree buildDeps
+40 silly fetch manifest eslint-config-next@0.2.4
+41 silly packumentCache full:https://registry.npmjs.org/eslint-config-next cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/eslint-config-next 113ms (cache revalidated)
+43 silly packumentCache full:https://registry.npmjs.org/eslint-config-next set size:6319392 disposed:false
+44 silly placeDep ROOT eslint-config-next@0.2.4 REPLACE for: conference-realignment-tool@0.1.0 want: 0.2.4
+45 silly reify mark retired [
+45 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@babel/runtime'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@babel/runtime-corejs3'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@next/eslint-plugin-next'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@nodelib/fs.scandir'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@nodelib/fs.stat'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@nodelib/fs.walk'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@rtsao/scc'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@rushstack/eslint-patch'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@types/json5'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@typescript-eslint/scope-manager'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@typescript-eslint/types'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@typescript-eslint/typescript-estree'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@typescript-eslint/visitor-keys'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/aria-query'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array-buffer-byte-length'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array-includes'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array-union'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array.prototype.findlast'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array.prototype.findlastindex'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array.prototype.flat'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array.prototype.flatmap'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array.prototype.tosorted'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/arraybuffer.prototype.slice'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/ast-types-flow'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/async-function'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/available-typed-arrays'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/axe-core'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/axobject-query'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/braces'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/call-bind'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/call-bind-apply-helpers'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/call-bound'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/concat-map'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/core-js-pure'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/damerau-levenshtein'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/data-view-buffer'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/data-view-byte-length'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/data-view-byte-offset'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/define-data-property'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/define-properties'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/dir-glob'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/doctrine'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/dunder-proto'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/emoji-regex'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-abstract'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-define-property'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-errors'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-iterator-helpers'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-object-atoms'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-set-tostringtag'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-shim-unscopables'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-to-primitive'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/eslint-config-next'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/eslint-import-resolver-node'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/eslint-module-utils'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/fast-glob'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/fastq'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/fill-range'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/for-each'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/fs.realpath'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/function-bind'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/function.prototype.name'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/functions-have-names'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/generator-function'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/get-intrinsic'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/get-proto'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/get-symbol-description'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/glob'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/globalthis'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/globby'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/gopd'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/has'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/has-bigints'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/has-property-descriptors'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/has-proto'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/has-symbols'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/has-tostringtag'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/hasown'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/inflight'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/inherits'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/internal-slot'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-array-buffer'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-async-function'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-bigint'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-boolean-object'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-callable'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-core-module'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-data-view'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-date-object'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-finalizationregistry'
+134 silly reify ]
+135 silly reify mark retired [
+135 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-generator-function'
+135 silly reify ]
+136 silly reify mark retired [
+136 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-map'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-negative-zero'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-number'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-number-object'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-regex'
+140 silly reify ]
+141 silly reify mark retired [
+141 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-set'
+141 silly reify ]
+142 silly reify mark retired [
+142 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-shared-array-buffer'
+142 silly reify ]
+143 silly reify mark retired [
+143 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-string'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-symbol'
+144 silly reify ]
+145 silly reify mark retired [
+145 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-typed-array'
+145 silly reify ]
+146 silly reify mark retired [
+146 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-weakmap'
+146 silly reify ]
+147 silly reify mark retired [
+147 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-weakref'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-weakset'
+148 silly reify ]
+149 silly reify mark retired [
+149 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/isarray'
+149 silly reify ]
+150 silly reify mark retired [
+150 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/iterator.prototype'
+150 silly reify ]
+151 silly reify mark retired [
+151 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/js-tokens'
+151 silly reify ]
+152 silly reify mark retired [
+152 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/json5',
+152 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.bin/json5'
+152 silly reify ]
+153 silly reify mark retired [
+153 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/jsx-ast-utils'
+153 silly reify ]
+154 silly reify mark retired [
+154 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/language-subtag-registry'
+154 silly reify ]
+155 silly reify mark retired [
+155 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/language-tags'
+155 silly reify ]
+156 silly reify mark retired [
+156 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/loose-envify',
+156 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.bin/loose-envify'
+156 silly reify ]
+157 silly reify mark retired [
+157 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/math-intrinsics'
+157 silly reify ]
+158 silly reify mark retired [
+158 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/merge2'
+158 silly reify ]
+159 silly reify mark retired [
+159 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/micromatch'
+159 silly reify ]
+160 silly reify mark retired [
+160 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/minimist'
+160 silly reify ]
+161 silly reify mark retired [
+161 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/node-exports-info'
+161 silly reify ]
+162 silly reify mark retired [
+162 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object-assign'
+162 silly reify ]
+163 silly reify mark retired [
+163 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object-inspect'
+163 silly reify ]
+164 silly reify mark retired [
+164 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object-keys'
+164 silly reify ]
+165 silly reify mark retired [
+165 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object.assign'
+165 silly reify ]
+166 silly reify mark retired [
+166 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object.entries'
+166 silly reify ]
+167 silly reify mark retired [
+167 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object.fromentries'
+167 silly reify ]
+168 silly reify mark retired [
+168 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object.groupby'
+168 silly reify ]
+169 silly reify mark retired [
+169 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object.values'
+169 silly reify ]
+170 silly reify mark retired [
+170 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/once'
+170 silly reify ]
+171 silly reify mark retired [
+171 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/own-keys'
+171 silly reify ]
+172 silly reify mark retired [
+172 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/path-is-absolute'
+172 silly reify ]
+173 silly reify mark retired [
+173 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/path-parse'
+173 silly reify ]
+174 silly reify mark retired [
+174 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/path-type'
+174 silly reify ]
+175 silly reify mark retired [
+175 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/picomatch'
+175 silly reify ]
+176 silly reify mark retired [
+176 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/possible-typed-array-names'
+176 silly reify ]
+177 silly reify mark retired [
+177 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/prop-types'
+177 silly reify ]
+178 silly reify mark retired [
+178 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/queue-microtask'
+178 silly reify ]
+179 silly reify mark retired [
+179 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/react-is'
+179 silly reify ]
+180 silly reify mark retired [
+180 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/reflect.getprototypeof'
+180 silly reify ]
+181 silly reify mark retired [
+181 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/regexp.prototype.flags'
+181 silly reify ]
+182 silly reify mark retired [
+182 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/resolve',
+182 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.bin/resolve'
+182 silly reify ]
+183 silly reify mark retired [
+183 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/reusify'
+183 silly reify ]
+184 silly reify mark retired [
+184 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/run-parallel'
+184 silly reify ]
+185 silly reify mark retired [
+185 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/safe-array-concat'
+185 silly reify ]
+186 silly reify mark retired [
+186 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/safe-push-apply'
+186 silly reify ]
+187 silly reify mark retired [
+187 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/safe-regex-test'
+187 silly reify ]
+188 silly reify mark retired [
+188 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/semver',
+188 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.bin/semver'
+188 silly reify ]
+189 silly reify mark retired [
+189 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/set-function-length'
+189 silly reify ]
+190 silly reify mark retired [
+190 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/set-function-name'
+190 silly reify ]
+191 silly reify mark retired [
+191 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/set-proto'
+191 silly reify ]
+192 silly reify mark retired [
+192 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/side-channel'
+192 silly reify ]
+193 silly reify mark retired [
+193 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/side-channel-list'
+193 silly reify ]
+194 silly reify mark retired [
+194 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/side-channel-map'
+194 silly reify ]
+195 silly reify mark retired [
+195 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/side-channel-weakmap'
+195 silly reify ]
+196 silly reify mark retired [
+196 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/slash'
+196 silly reify ]
+197 silly reify mark retired [
+197 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/stop-iteration-iterator'
+197 silly reify ]
+198 silly reify mark retired [
+198 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/string.prototype.matchall'
+198 silly reify ]
+199 silly reify mark retired [
+199 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/string.prototype.repeat'
+199 silly reify ]
+200 silly reify mark retired [
+200 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/string.prototype.trim'
+200 silly reify ]
+201 silly reify mark retired [
+201 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/string.prototype.trimend'
+201 silly reify ]
+202 silly reify mark retired [
+202 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/string.prototype.trimstart'
+202 silly reify ]
+203 silly reify mark retired [
+203 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/strip-bom'
+203 silly reify ]
+204 silly reify mark retired [
+204 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/supports-preserve-symlinks-flag'
+204 silly reify ]
+205 silly reify mark retired [
+205 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/to-regex-range'
+205 silly reify ]
+206 silly reify mark retired [
+206 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/tsconfig-paths'
+206 silly reify ]
+207 silly reify mark retired [
+207 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/tsutils'
+207 silly reify ]
+208 silly reify mark retired [
+208 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/typed-array-buffer'
+208 silly reify ]
+209 silly reify mark retired [
+209 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/typed-array-byte-length'
+209 silly reify ]
+210 silly reify mark retired [
+210 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/typed-array-byte-offset'
+210 silly reify ]
+211 silly reify mark retired [
+211 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/typed-array-length'
+211 silly reify ]
+212 silly reify mark retired [
+212 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/unbox-primitive'
+212 silly reify ]
+213 silly reify mark retired [
+213 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/which-boxed-primitive'
+213 silly reify ]
+214 silly reify mark retired [
+214 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/which-builtin-type'
+214 silly reify ]
+215 silly reify mark retired [
+215 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/which-collection'
+215 silly reify ]
+216 silly reify mark retired [
+216 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/which-typed-array'
+216 silly reify ]
+217 silly reify mark retired [
+217 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/wrappy'
+217 silly reify ]
+218 silly reify moves {
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@babel/runtime': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@babel/.runtime-dxHeHNoE',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@babel/runtime-corejs3': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@babel/.runtime-corejs3-5u9qsGuK',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@next/eslint-plugin-next': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@next/.eslint-plugin-next-YWSSihBe',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@nodelib/fs.scandir': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@nodelib/.fs.scandir-z9r00AEP',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@nodelib/fs.stat': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@nodelib/.fs.stat-Sw2WFGLT',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@nodelib/fs.walk': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@nodelib/.fs.walk-w59mbeHT',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@rtsao/scc': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@rtsao/.scc-3xi9KBkD',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@rushstack/eslint-patch': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@rushstack/.eslint-patch-qGrqNk4f',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@types/json5': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@types/.json5-STxChgLK',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@typescript-eslint/scope-manager': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@typescript-eslint/.scope-manager-a4k8qg7g',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@typescript-eslint/types': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@typescript-eslint/.types-oepJyFPo',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@typescript-eslint/typescript-estree': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@typescript-eslint/.typescript-estree-LdBe87ll',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@typescript-eslint/visitor-keys': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/@typescript-eslint/.visitor-keys-hBCb7aHH',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/aria-query': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.aria-query-vVqKVe6n',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array-buffer-byte-length': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.array-buffer-byte-length-xocdpBf8',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array-includes': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.array-includes-Tj43YYRv',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array-union': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.array-union-IQru4OHV',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array.prototype.findlast': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.array.prototype.findlast-1pVoXbLf',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array.prototype.findlastindex': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.array.prototype.findlastindex-naLMD9aw',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array.prototype.flat': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.array.prototype.flat-OUu9Kgak',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array.prototype.flatmap': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.array.prototype.flatmap-bvGFgb0t',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/array.prototype.tosorted': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.array.prototype.tosorted-SmE5fBbc',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/arraybuffer.prototype.slice': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.arraybuffer.prototype.slice-UaWh5qtB',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/ast-types-flow': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.ast-types-flow-GXuMcJXe',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/async-function': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.async-function-EEIXGLiE',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/available-typed-arrays': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.available-typed-arrays-bKwz9clc',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/axe-core': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.axe-core-Cf5fohUA',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/axobject-query': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.axobject-query-Ixboy1t9',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/braces': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.braces-T1k5Cy6y',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/call-bind': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.call-bind-2sL8CUBG',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/call-bind-apply-helpers': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.call-bind-apply-helpers-bihSKOOM',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/call-bound': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.call-bound-WKb3NAUJ',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/concat-map': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.concat-map-gHH27fui',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/core-js-pure': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.core-js-pure-yqHPitWl',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/damerau-levenshtein': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.damerau-levenshtein-tWHcWQEG',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/data-view-buffer': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.data-view-buffer-axyyii8w',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/data-view-byte-length': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.data-view-byte-length-Hx6aHkpq',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/data-view-byte-offset': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.data-view-byte-offset-LWRm0OJw',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/define-data-property': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.define-data-property-qFdRX6Pf',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/define-properties': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.define-properties-xf9WYu63',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/dir-glob': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.dir-glob-i3xn1se0',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/doctrine': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.doctrine-JIWgmcGA',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/dunder-proto': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.dunder-proto-UXP4EeTi',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/emoji-regex': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.emoji-regex-rRonJcZW',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-abstract': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.es-abstract-wASuxGdu',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-define-property': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.es-define-property-ANRV71Bg',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-errors': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.es-errors-0liiCB3Z',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-iterator-helpers': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.es-iterator-helpers-rx23C6cd',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-object-atoms': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.es-object-atoms-qsotzqSf',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-set-tostringtag': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.es-set-tostringtag-P7eZuNXw',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-shim-unscopables': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.es-shim-unscopables-tYw81Bwl',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/es-to-primitive': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.es-to-primitive-gN5PURIT',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/eslint-config-next': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.eslint-config-next-uCYW28Kl',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/eslint-import-resolver-node': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.eslint-import-resolver-node-8c2NnFZG',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/eslint-module-utils': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.eslint-module-utils-4OewqLzR',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/fast-glob': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.fast-glob-OiR1LlJw',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/fastq': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.fastq-fVAnDCGw',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/fill-range': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.fill-range-SXdsZhui',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/for-each': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.for-each-dqqAMHqC',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/fs.realpath': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.fs.realpath-qk9ZhhoA',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/function-bind': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.function-bind-TUQpWzTR',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/function.prototype.name': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.function.prototype.name-M8QaLgvz',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/functions-have-names': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.functions-have-names-J8seLO7C',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/generator-function': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.generator-function-W5aTBQg2',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/get-intrinsic': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.get-intrinsic-pn96ismk',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/get-proto': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.get-proto-Y6vCrAJA',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/get-symbol-description': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.get-symbol-description-TiSsNbTk',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/glob': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.glob-CmFouvb4',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/globalthis': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.globalthis-A1oWt0Ef',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/globby': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.globby-gfNfovKO',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/gopd': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.gopd-CBhVPVSu',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/has': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.has-ghNsBFzH',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/has-bigints': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.has-bigints-Iy1Bql7v',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/has-property-descriptors': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.has-property-descriptors-AOMDt7st',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/has-proto': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.has-proto-e8x3TdDG',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/has-symbols': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.has-symbols-YBZImMOf',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/has-tostringtag': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.has-tostringtag-91Ty41Bl',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/hasown': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.hasown-At2Hooz0',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/inflight': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.inflight-efmBTfVs',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/inherits': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.inherits-2OaRL601',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/internal-slot': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.internal-slot-qbLIPo51',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-array-buffer': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-array-buffer-0bOp3mGO',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-async-function': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-async-function-OT3UGOwY',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-bigint': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-bigint-vjHr1chq',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-boolean-object': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-boolean-object-qvvIV1Tc',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-callable': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-callable-fHYSjJvn',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-core-module': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-core-module-ZHoKZZxp',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-data-view': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-data-view-spo9Efwc',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-date-object': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-date-object-o0dDBNZG',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-finalizationregistry': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-finalizationregistry-Pso0qdGX',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-generator-function': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-generator-function-cA8QnCe1',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-map': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-map-14CIEHpn',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-negative-zero': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-negative-zero-MlXahSNc',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-number': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-number-lpqxdaGg',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-number-object': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-number-object-xxUq12ye',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-regex': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-regex-jY5zfMRe',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-set': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-set-aOGC6LbO',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-shared-array-buffer': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-shared-array-buffer-K0EYG2C3',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-string': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-string-V5HtMdo7',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-symbol': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-symbol-pBAtvTYH',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-typed-array': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-typed-array-UJ7wlVXY',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-weakmap': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-weakmap-IGjlU8aJ',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-weakref': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-weakref-XbIhwns7',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/is-weakset': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.is-weakset-DVXC0WK3',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/isarray': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.isarray-6S3basqs',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/iterator.prototype': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.iterator.prototype-duXfkxhK',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/js-tokens': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.js-tokens-FJkPKgmX',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/json5': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.json5-qY4h7LUW',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.bin/json5': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.bin/.json5-zILbII7P',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/jsx-ast-utils': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.jsx-ast-utils-plRMgS1P',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/language-subtag-registry': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.language-subtag-registry-sEcULN8J',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/language-tags': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.language-tags-JkQBIKS5',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/loose-envify': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.loose-envify-ERrSwK6C',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.bin/loose-envify': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.bin/.loose-envify-3tKZfwLs',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/math-intrinsics': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.math-intrinsics-AqNyIGC6',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/merge2': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.merge2-lIXZ8Rcu',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/micromatch': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.micromatch-NcKLte1K',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/minimist': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.minimist-JW4cX6KS',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/node-exports-info': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.node-exports-info-FDYBdVeL',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object-assign': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.object-assign-BMAlWu6G',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object-inspect': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.object-inspect-euXb7Qzr',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object-keys': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.object-keys-URqd1RTX',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object.assign': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.object.assign-7wgCmbAK',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object.entries': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.object.entries-1aVXNh2u',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object.fromentries': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.object.fromentries-oihq98Sm',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object.groupby': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.object.groupby-wWZXb99N',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/object.values': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.object.values-hcYHh8JV',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/once': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.once-yY0lLagw',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/own-keys': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.own-keys-w1YxyLvM',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/path-is-absolute': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.path-is-absolute-582phlti',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/path-parse': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.path-parse-HOOrXgqR',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/path-type': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.path-type-ZiYF9WC6',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/picomatch': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.picomatch-Zfylepya',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/possible-typed-array-names': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.possible-typed-array-names-bo5tuZhd',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/prop-types': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.prop-types-hXUTfUYt',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/queue-microtask': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.queue-microtask-15xP5Yyv',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/react-is': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.react-is-RkyloIw6',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/reflect.getprototypeof': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.reflect.getprototypeof-CItteJCH',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/regexp.prototype.flags': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.regexp.prototype.flags-2Hd5cHBf',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/resolve': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.resolve-o9bvyYIq',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.bin/resolve': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.bin/.resolve-MjugRVzO',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/reusify': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.reusify-6n41LhSs',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/run-parallel': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.run-parallel-eMAKTlDB',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/safe-array-concat': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.safe-array-concat-Bre3rFMz',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/safe-push-apply': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.safe-push-apply-7he58ro7',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/safe-regex-test': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.safe-regex-test-CfOYKHXq',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/semver': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.semver-Ax0ai2A0',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.bin/semver': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.bin/.semver-95gxYxA9',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/set-function-length': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.set-function-length-g4jyeqkl',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/set-function-name': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.set-function-name-FwBHImtw',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/set-proto': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.set-proto-qzbqg1oa',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/side-channel': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.side-channel-bL2ds6tf',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/side-channel-list': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.side-channel-list-0UBYxt8b',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/side-channel-map': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.side-channel-map-g27QQRVi',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/side-channel-weakmap': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.side-channel-weakmap-WAOKahYw',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/slash': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.slash-K8qC2Lw6',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/stop-iteration-iterator': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.stop-iteration-iterator-SCYbuNss',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/string.prototype.matchall': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.string.prototype.matchall-3j5mGS1K',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/string.prototype.repeat': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.string.prototype.repeat-ZeLCf1TZ',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/string.prototype.trim': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.string.prototype.trim-0RqiMuil',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/string.prototype.trimend': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.string.prototype.trimend-CYeCQ7cT',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/string.prototype.trimstart': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.string.prototype.trimstart-QpG0tCf4',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/strip-bom': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.strip-bom-qLHyB5RP',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/supports-preserve-symlinks-flag': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.supports-preserve-symlinks-flag-cHDkgsvD',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/to-regex-range': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.to-regex-range-NuU3bnaq',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/tsconfig-paths': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.tsconfig-paths-N9r9EpeU',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/tsutils': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.tsutils-SVDt71Zn',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/typed-array-buffer': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.typed-array-buffer-5RnkBCfC',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/typed-array-byte-length': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.typed-array-byte-length-ELx0hlbR',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/typed-array-byte-offset': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.typed-array-byte-offset-wdFvDv3C',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/typed-array-length': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.typed-array-length-WpyeQnqT',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/unbox-primitive': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.unbox-primitive-gVixCyQU',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/which-boxed-primitive': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.which-boxed-primitive-cY0Mneth',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/which-builtin-type': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.which-builtin-type-gUsBBibT',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/which-collection': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.which-collection-BavgTVyd',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/which-typed-array': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.which-typed-array-ENnqXgx1',
+218 silly reify   '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/wrappy': '/Users/xavierleffler/Projects/conference-realignment-tool/node_modules/.wrappy-J12VtVF7'
+218 silly reify }
+219 silly audit bulk request {
+219 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+219 silly audit   '@emnapi/core': [ '1.7.1' ],
+219 silly audit   '@emnapi/runtime': [ '1.7.1' ],
+219 silly audit   '@emnapi/wasi-threads': [ '1.1.0' ],
+219 silly audit   '@eslint-community/eslint-utils': [ '4.9.1' ],
+219 silly audit   'eslint-visitor-keys': [ '3.4.3', '5.0.1' ],
+219 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+219 silly audit   '@eslint/config-array': [ '0.23.2' ],
+219 silly audit   '@eslint/config-helpers': [ '0.5.2' ],
+219 silly audit   '@eslint/core': [ '1.1.0' ],
+219 silly audit   '@eslint/object-schema': [ '3.0.2' ],
+219 silly audit   '@eslint/plugin-kit': [ '0.6.0' ],
+219 silly audit   '@humanfs/core': [ '0.19.1' ],
+219 silly audit   '@humanfs/node': [ '0.16.7' ],
+219 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+219 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+219 silly audit   '@img/colour': [ '1.0.0' ],
+219 silly audit   '@img/sharp-darwin-arm64': [ '0.34.5' ],
+219 silly audit   '@img/sharp-darwin-x64': [ '0.34.5' ],
+219 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.4' ],
+219 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.4' ],
+219 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.4' ],
+219 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.4' ],
+219 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.4' ],
+219 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.2.4' ],
+219 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.4' ],
+219 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.4' ],
+219 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.4' ],
+219 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.4' ],
+219 silly audit   '@img/sharp-linux-arm': [ '0.34.5' ],
+219 silly audit   '@img/sharp-linux-arm64': [ '0.34.5' ],
+219 silly audit   '@img/sharp-linux-ppc64': [ '0.34.5' ],
+219 silly audit   '@img/sharp-linux-riscv64': [ '0.34.5' ],
+219 silly audit   '@img/sharp-linux-s390x': [ '0.34.5' ],
+219 silly audit   '@img/sharp-linux-x64': [ '0.34.5' ],
+219 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.5' ],
+219 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.5' ],
+219 silly audit   '@img/sharp-wasm32': [ '0.34.5' ],
+219 silly audit   '@img/sharp-win32-arm64': [ '0.34.5' ],
+219 silly audit   '@img/sharp-win32-ia32': [ '0.34.5' ],
+219 silly audit   '@img/sharp-win32-x64': [ '0.34.5' ],
+219 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+219 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+219 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+219 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+219 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+219 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+219 silly audit   '@next/env': [ '16.1.6' ],
+219 silly audit   '@next/swc-darwin-arm64': [ '16.1.6' ],
+219 silly audit   '@next/swc-darwin-x64': [ '16.1.6' ],
+219 silly audit   '@next/swc-linux-arm64-gnu': [ '16.1.6' ],
+219 silly audit   '@next/swc-linux-arm64-musl': [ '16.1.6' ],
+219 silly audit   '@next/swc-linux-x64-gnu': [ '16.1.6' ],
+219 silly audit   '@next/swc-linux-x64-musl': [ '16.1.6' ],
+219 silly audit   '@next/swc-win32-arm64-msvc': [ '16.1.6' ],
+219 silly audit   '@next/swc-win32-x64-msvc': [ '16.1.6' ],
+219 silly audit   '@swc/helpers': [ '0.5.15' ],
+219 silly audit   '@tailwindcss/node': [ '4.1.17' ],
+219 silly audit   '@tailwindcss/oxide': [ '4.1.17' ],
+219 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.17' ],
+219 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.17' ],
+219 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.17' ],
+219 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.17' ],
+219 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.17' ],
+219 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.17' ],
+219 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.17' ],
+219 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.17' ],
+219 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.17' ],
+219 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.17' ],
+219 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.17' ],
+219 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.17' ],
+219 silly audit   '@tailwindcss/postcss': [ '4.1.17' ],
+219 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+219 silly audit   '@types/esrecurse': [ '4.3.1' ],
+219 silly audit   '@types/estree': [ '1.0.8' ],
+219 silly audit   '@types/json-schema': [ '7.0.15' ],
+219 silly audit   '@types/node': [ '20.19.25' ],
+219 silly audit   '@types/react': [ '19.2.7' ],
+219 silly audit   '@types/react-dom': [ '19.2.3' ],
+219 silly audit   semver: [ '7.7.3' ],
+219 silly audit   acorn: [ '8.16.0' ],
+219 silly audit   'acorn-jsx': [ '5.3.2' ],
+219 silly audit   ajv: [ '6.14.0' ],
+219 silly audit   'balanced-match': [ '4.0.3' ],
+219 silly audit   'baseline-browser-mapping': [ '2.10.0' ],
+219 silly audit   'brace-expansion': [ '5.0.2' ],
+219 silly audit   'caniuse-lite': [ '1.0.30001757' ],
+219 silly audit   'client-only': [ '0.0.1' ],
+219 silly audit   'cross-spawn': [ '7.0.6' ],
+219 silly audit   csstype: [ '3.2.3' ],
+219 silly audit   debug: [ '4.4.3' ],
+219 silly audit   'deep-is': [ '0.1.4' ],
+219 silly audit   'detect-libc': [ '2.1.2' ],
+219 silly audit   'enhanced-resolve': [ '5.18.3' ],
+219 silly audit   'escape-string-regexp': [ '4.0.0' ],
+219 silly audit   eslint: [ '10.0.1' ],
+219 silly audit   minimatch: [ '10.2.2' ],
+219 silly audit   'eslint-scope': [ '9.1.1' ],
+219 silly audit   espree: [ '11.1.1' ],
+219 silly audit   esquery: [ '1.7.0' ],
+219 silly audit   esrecurse: [ '4.3.0' ],
+219 silly audit   estraverse: [ '5.3.0' ],
+219 silly audit   esutils: [ '2.0.3' ],
+219 silly audit   'fast-deep-equal': [ '3.1.3' ],
+219 silly audit   'glob-parent': [ '6.0.2' ],
+219 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+219 silly audit   'fast-levenshtein': [ '2.0.6' ],
+219 silly audit   'file-entry-cache': [ '8.0.0' ],
+219 silly audit   'find-up': [ '5.0.0' ],
+219 silly audit   'flat-cache': [ '4.0.1' ],
+219 silly audit   flatted: [ '3.3.3' ],
+219 silly audit   'graceful-fs': [ '4.2.11' ],
+219 silly audit   ignore: [ '5.3.2' ],
+219 silly audit   imurmurhash: [ '0.1.4' ],
+219 silly audit   'is-extglob': [ '2.1.1' ],
+219 silly audit   'is-glob': [ '4.0.3' ],
+219 silly audit   isexe: [ '2.0.0' ],
+219 silly audit   jiti: [ '2.6.1' ],
+219 silly audit   'json-buffer': [ '3.0.1' ],
+219 silly audit   'json-schema-traverse': [ '0.4.1' ],
+219 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+219 silly audit   keyv: [ '4.5.4' ],
+219 silly audit   levn: [ '0.4.1' ],
+219 silly audit   lightningcss: [ '1.30.2' ],
+219 silly audit   'lightningcss-android-arm64': [ '1.30.2' ],
+219 silly audit   'lightningcss-darwin-arm64': [ '1.30.2' ],
+219 silly audit   'lightningcss-darwin-x64': [ '1.30.2' ],
+219 silly audit   'lightningcss-freebsd-x64': [ '1.30.2' ],
+219 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.2' ],
+219 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.2' ],
+219 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.2' ],
+219 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.2' ],
+219 silly audit   'lightningcss-linux-x64-musl': [ '1.30.2' ],
+219 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.2' ],
+219 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.2' ],
+219 silly audit   'locate-path': [ '6.0.0' ],
+219 silly audit   'magic-string': [ '0.30.21' ],
+219 silly audit   ms: [ '2.1.3' ],
+219 silly audit   nanoid: [ '3.3.11' ],
+219 silly audit   'natural-compare': [ '1.4.0' ],
+219 silly audit   next: [ '16.1.6' ],
+219 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+219 silly audit   optionator: [ '0.9.4' ],
+219 silly audit   'p-limit': [ '3.1.0' ],
+219 silly audit   'p-locate': [ '5.0.0' ],
+219 silly audit   'path-exists': [ '4.0.0' ],
+219 silly audit   'path-key': [ '3.1.1' ],
+219 silly audit   picocolors: [ '1.1.1' ],
+219 silly audit   'prelude-ls': [ '1.2.1' ],
+219 silly audit   punycode: [ '2.3.1' ],
+219 silly audit   react: [ '19.2.0' ],
+219 silly audit   'react-dom': [ '19.2.0' ],
+219 silly audit   scheduler: [ '0.27.0' ],
+219 silly audit   sharp: [ '0.34.5' ],
+219 silly audit   'shebang-command': [ '2.0.0' ],
+219 silly audit   'shebang-regex': [ '3.0.0' ],
+219 silly audit   'source-map-js': [ '1.2.1' ],
+219 silly audit   'styled-jsx': [ '5.1.6' ],
+219 silly audit   tailwindcss: [ '4.1.17' ],
+219 silly audit   tapable: [ '2.3.0' ],
+219 silly audit   tslib: [ '2.8.1' ],
+219 silly audit   'type-check': [ '0.4.0' ],
+219 silly audit   typescript: [ '5.9.3' ],
+219 silly audit   'undici-types': [ '6.21.0' ],
+219 silly audit   'uri-js': [ '4.4.1' ],
+219 silly audit   which: [ '2.0.2' ],
+219 silly audit   'word-wrap': [ '1.2.5' ],
+219 silly audit   'yocto-queue': [ '0.1.0' ],
+219 silly audit   'eslint-config-next': [ '0.2.4' ]
+219 silly audit }
+220 http cache eslint-config-next@https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-0.2.4.tgz 0ms (cache hit)
+221 silly tarball no local data for eslint-config-next@https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-0.2.4.tgz. Extracting by manifest.
+222 http fetch GET 200 https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-0.2.4.tgz 77ms (cache miss)
+223 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 176ms
+224 silly audit report {}
+225 silly REMOVE node_modules/wrappy
+226 silly REMOVE node_modules/which-typed-array
+227 silly REMOVE node_modules/which-collection
+228 silly REMOVE node_modules/which-builtin-type
+229 silly REMOVE node_modules/which-boxed-primitive
+230 silly REMOVE node_modules/unbox-primitive
+231 silly REMOVE node_modules/typed-array-length
+232 silly REMOVE node_modules/typed-array-byte-offset
+233 silly REMOVE node_modules/typed-array-byte-length
+234 silly REMOVE node_modules/typed-array-buffer
+235 silly REMOVE node_modules/tsutils
+236 silly REMOVE node_modules/tsutils/node_modules/tslib
+237 silly REMOVE node_modules/tsconfig-paths
+238 silly REMOVE node_modules/to-regex-range
+239 silly REMOVE node_modules/supports-preserve-symlinks-flag
+240 silly REMOVE node_modules/strip-bom
+241 silly REMOVE node_modules/string.prototype.trimstart
+242 silly REMOVE node_modules/string.prototype.trimend
+243 silly REMOVE node_modules/string.prototype.trim
+244 silly REMOVE node_modules/string.prototype.repeat
+245 silly REMOVE node_modules/string.prototype.matchall
+246 silly REMOVE node_modules/stop-iteration-iterator
+247 silly REMOVE node_modules/slash
+248 silly REMOVE node_modules/side-channel-weakmap
+249 silly REMOVE node_modules/side-channel-map
+250 silly REMOVE node_modules/side-channel-list
+251 silly REMOVE node_modules/side-channel
+252 silly REMOVE node_modules/set-proto
+253 silly REMOVE node_modules/set-function-name
+254 silly REMOVE node_modules/set-function-length
+255 silly REMOVE node_modules/semver
+256 silly REMOVE node_modules/safe-regex-test
+257 silly REMOVE node_modules/safe-push-apply
+258 silly REMOVE node_modules/safe-array-concat
+259 silly REMOVE node_modules/run-parallel
+260 silly REMOVE node_modules/reusify
+261 silly REMOVE node_modules/resolve
+262 silly REMOVE node_modules/regexp.prototype.flags
+263 silly REMOVE node_modules/reflect.getprototypeof
+264 silly REMOVE node_modules/react-is
+265 silly REMOVE node_modules/queue-microtask
+266 silly REMOVE node_modules/prop-types
+267 silly REMOVE node_modules/possible-typed-array-names
+268 silly REMOVE node_modules/picomatch
+269 silly REMOVE node_modules/path-type
+270 silly REMOVE node_modules/path-parse
+271 silly REMOVE node_modules/path-is-absolute
+272 silly REMOVE node_modules/own-keys
+273 silly REMOVE node_modules/once
+274 silly REMOVE node_modules/object.values
+275 silly REMOVE node_modules/object.groupby
+276 silly REMOVE node_modules/object.fromentries
+277 silly REMOVE node_modules/object.entries
+278 silly REMOVE node_modules/object.assign
+279 silly REMOVE node_modules/object-keys
+280 silly REMOVE node_modules/object-inspect
+281 silly REMOVE node_modules/object-assign
+282 silly REMOVE node_modules/node-exports-info
+283 silly REMOVE node_modules/minimist
+284 silly REMOVE node_modules/micromatch
+285 silly REMOVE node_modules/merge2
+286 silly REMOVE node_modules/math-intrinsics
+287 silly REMOVE node_modules/loose-envify
+288 silly REMOVE node_modules/language-tags
+289 silly REMOVE node_modules/language-subtag-registry
+290 silly REMOVE node_modules/jsx-ast-utils
+291 silly REMOVE node_modules/json5
+292 silly REMOVE node_modules/js-tokens
+293 silly REMOVE node_modules/iterator.prototype
+294 silly REMOVE node_modules/isarray
+295 silly REMOVE node_modules/is-weakset
+296 silly REMOVE node_modules/is-weakref
+297 silly REMOVE node_modules/is-weakmap
+298 silly REMOVE node_modules/is-typed-array
+299 silly REMOVE node_modules/is-symbol
+300 silly REMOVE node_modules/is-string
+301 silly REMOVE node_modules/is-shared-array-buffer
+302 silly REMOVE node_modules/is-set
+303 silly REMOVE node_modules/is-regex
+304 silly REMOVE node_modules/is-number-object
+305 silly REMOVE node_modules/is-number
+306 silly REMOVE node_modules/is-negative-zero
+307 silly REMOVE node_modules/is-map
+308 silly REMOVE node_modules/is-generator-function
+309 silly REMOVE node_modules/is-finalizationregistry
+310 silly REMOVE node_modules/is-date-object
+311 silly REMOVE node_modules/is-data-view
+312 silly REMOVE node_modules/is-core-module
+313 silly REMOVE node_modules/is-callable
+314 silly REMOVE node_modules/is-boolean-object
+315 silly REMOVE node_modules/is-bigint
+316 silly REMOVE node_modules/is-async-function
+317 silly REMOVE node_modules/is-array-buffer
+318 silly REMOVE node_modules/internal-slot
+319 silly REMOVE node_modules/inherits
+320 silly REMOVE node_modules/inflight
+321 silly REMOVE node_modules/hasown
+322 silly REMOVE node_modules/has-tostringtag
+323 silly REMOVE node_modules/has-symbols
+324 silly REMOVE node_modules/has-proto
+325 silly REMOVE node_modules/has-property-descriptors
+326 silly REMOVE node_modules/has-bigints
+327 silly REMOVE node_modules/has
+328 silly REMOVE node_modules/gopd
+329 silly REMOVE node_modules/globby
+330 silly REMOVE node_modules/globalthis
+331 silly REMOVE node_modules/glob
+332 silly REMOVE node_modules/glob/node_modules/minimatch
+333 silly REMOVE node_modules/glob/node_modules/brace-expansion
+334 silly REMOVE node_modules/glob/node_modules/balanced-match
+335 silly REMOVE node_modules/get-symbol-description
+336 silly REMOVE node_modules/get-proto
+337 silly REMOVE node_modules/get-intrinsic
+338 silly REMOVE node_modules/generator-function
+339 silly REMOVE node_modules/functions-have-names
+340 silly REMOVE node_modules/function.prototype.name
+341 silly REMOVE node_modules/function-bind
+342 silly REMOVE node_modules/fs.realpath
+343 silly REMOVE node_modules/for-each
+344 silly REMOVE node_modules/fill-range
+345 silly REMOVE node_modules/fastq
+346 silly REMOVE node_modules/fast-glob
+347 silly REMOVE node_modules/fast-glob/node_modules/glob-parent
+348 silly REMOVE node_modules/eslint-module-utils
+349 silly REMOVE node_modules/eslint-module-utils/node_modules/debug
+350 silly REMOVE node_modules/eslint-import-resolver-node
+351 silly REMOVE node_modules/eslint-import-resolver-node/node_modules/debug
+352 silly CHANGE node_modules/eslint-config-next
+353 silly REMOVE node_modules/eslint-config-next/node_modules/minimatch
+354 silly REMOVE node_modules/eslint-config-next/node_modules/glob
+355 silly REMOVE node_modules/eslint-config-next/node_modules/eslint-plugin-react-hooks
+356 silly REMOVE node_modules/eslint-config-next/node_modules/eslint-plugin-react
+357 silly REMOVE node_modules/eslint-config-next/node_modules/eslint-plugin-react/node_modules/resolve
+358 silly REMOVE node_modules/eslint-config-next/node_modules/eslint-plugin-jsx-a11y
+359 silly REMOVE node_modules/eslint-config-next/node_modules/eslint-plugin-import
+360 silly REMOVE node_modules/eslint-config-next/node_modules/eslint-plugin-import/node_modules/debug
+361 silly REMOVE node_modules/eslint-config-next/node_modules/eslint-import-resolver-typescript
+362 silly REMOVE node_modules/eslint-config-next/node_modules/brace-expansion
+363 silly REMOVE node_modules/eslint-config-next/node_modules/balanced-match
+364 silly REMOVE node_modules/eslint-config-next/node_modules/@typescript-eslint/parser
+365 silly REMOVE node_modules/es-to-primitive
+366 silly REMOVE node_modules/es-shim-unscopables
+367 silly REMOVE node_modules/es-set-tostringtag
+368 silly REMOVE node_modules/es-object-atoms
+369 silly REMOVE node_modules/es-iterator-helpers
+370 silly REMOVE node_modules/es-errors
+371 silly REMOVE node_modules/es-define-property
+372 silly REMOVE node_modules/es-abstract
+373 silly REMOVE node_modules/emoji-regex
+374 silly REMOVE node_modules/dunder-proto
+375 silly REMOVE node_modules/doctrine
+376 silly REMOVE node_modules/dir-glob
+377 silly REMOVE node_modules/define-properties
+378 silly REMOVE node_modules/define-data-property
+379 silly REMOVE node_modules/data-view-byte-offset
+380 silly REMOVE node_modules/data-view-byte-length
+381 silly REMOVE node_modules/data-view-buffer
+382 silly REMOVE node_modules/damerau-levenshtein
+383 silly REMOVE node_modules/core-js-pure
+384 silly REMOVE node_modules/concat-map
+385 silly REMOVE node_modules/call-bound
+386 silly REMOVE node_modules/call-bind-apply-helpers
+387 silly REMOVE node_modules/call-bind
+388 silly REMOVE node_modules/braces
+389 silly REMOVE node_modules/axobject-query
+390 silly REMOVE node_modules/axe-core
+391 silly REMOVE node_modules/available-typed-arrays
+392 silly REMOVE node_modules/async-function
+393 silly REMOVE node_modules/ast-types-flow
+394 silly REMOVE node_modules/arraybuffer.prototype.slice
+395 silly REMOVE node_modules/array.prototype.tosorted
+396 silly REMOVE node_modules/array.prototype.flatmap
+397 silly REMOVE node_modules/array.prototype.flat
+398 silly REMOVE node_modules/array.prototype.findlastindex
+399 silly REMOVE node_modules/array.prototype.findlast
+400 silly REMOVE node_modules/array-union
+401 silly REMOVE node_modules/array-includes
+402 silly REMOVE node_modules/array-buffer-byte-length
+403 silly REMOVE node_modules/aria-query
+404 silly REMOVE node_modules/@typescript-eslint/visitor-keys
+405 silly REMOVE node_modules/@typescript-eslint/visitor-keys/node_modules/eslint-visitor-keys
+406 silly REMOVE node_modules/@typescript-eslint/typescript-estree
+407 silly REMOVE node_modules/@typescript-eslint/typescript-estree/node_modules/semver
+408 silly REMOVE node_modules/@typescript-eslint/types
+409 silly REMOVE node_modules/@typescript-eslint/scope-manager
+410 silly REMOVE node_modules/@types/json5
+411 silly REMOVE node_modules/@rushstack/eslint-patch
+412 silly REMOVE node_modules/@rtsao/scc
+413 silly REMOVE node_modules/@nodelib/fs.walk
+414 silly REMOVE node_modules/@nodelib/fs.stat
+415 silly REMOVE node_modules/@nodelib/fs.scandir
+416 silly REMOVE node_modules/@next/eslint-plugin-next
+417 silly REMOVE node_modules/@babel/runtime-corejs3
+418 silly REMOVE node_modules/@babel/runtime
+419 verbose cwd /Users/xavierleffler/Projects/conference-realignment-tool
+420 verbose os Darwin 24.6.0
+421 verbose node v24.4.0
+422 verbose npm  v11.10.1
+423 verbose exit 0
+424 info ok
