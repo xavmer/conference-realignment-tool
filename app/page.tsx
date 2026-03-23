@@ -201,8 +201,6 @@ export default function Home() {
     );
   }, [conferences]);
 
-  const sortedTeams = useMemo(() => sortTeams(teams, sortMode), [teams, sortMode]);
-
   const mapTeams = useMemo(() => {
     return teams
       .filter((team) => (visibleConferences[team.conferenceId] ?? true) && (visibleTeams[team.id] ?? true))
@@ -263,6 +261,19 @@ export default function Home() {
     setNewTeamConferenceId(initialConferences[0].id);
     setNewTeamLat("39.8");
     setNewTeamLng("-98.5");
+  }
+
+  function clearAllTeams() {
+    setConferences((current) =>
+      current.map((conference) => ({
+        ...conference,
+        teams: [],
+      })),
+    );
+    setDraggingTeamId(null);
+    setTeamColors({});
+    setTeamCoordinates({});
+    setVisibleTeams({});
   }
 
   function addConference() {
@@ -520,6 +531,12 @@ export default function Home() {
                     Reset Scenario + Styling
                   </button>
                   <button
+                    className={`${actionButtonClass} border-rose-300/25 bg-rose-400/10 text-rose-100 hover:bg-rose-400/16`}
+                    onClick={clearAllTeams}
+                  >
+                    Clear All Teams
+                  </button>
+                  <button
                     className={`${actionButtonClass} border-emerald-300/25 bg-emerald-400/10 text-emerald-100 hover:bg-emerald-400/16`}
                     onClick={downloadState}
                   >
@@ -634,7 +651,10 @@ export default function Home() {
               </CollapsibleSection>
 
               <CollapsibleSection title="Conferences" badge={`${conferences.length} total`} defaultOpen={false}>
-                <div className="max-h-[30vh] space-y-3 overflow-y-auto pr-1">
+                <p className="mb-3 text-xs leading-5 text-slate-400">
+                  Drag a team card from one conference into another conference card to reassign it.
+                </p>
+                <div className="max-h-[56vh] space-y-3 overflow-y-auto pr-1">
                   {conferences.map((conference) => (
                     <div
                       key={conference.id}
@@ -684,57 +704,64 @@ export default function Home() {
                         </button>
                         {draggingTeamId && <p className="text-xs text-emerald-200">Drop dragged team here</p>}
                       </div>
-                    </div>
-                  ))}
-                </div>
-              </CollapsibleSection>
 
-              <CollapsibleSection title="Teams" badge="Drag Enabled" defaultOpen={false}>
-                <div className="max-h-[40vh] space-y-3 overflow-y-auto pr-1">
-                  {sortedTeams.map((team) => (
-                    <div
-                      key={team.id}
-                      className="cursor-grab rounded-[22px] border border-white/10 bg-white/5 p-3 transition hover:bg-white/7 active:cursor-grabbing"
-                      draggable
-                      onDragStart={() => onDragTeamStart(team.id)}
-                      onDragEnd={() => setDraggingTeamId(null)}
-                    >
-                      <div className="flex items-center justify-between gap-3">
-                        <label className="flex items-center gap-3 text-sm font-medium text-slate-100">
-                          <input
-                            type="checkbox"
-                            checked={visibleTeams[team.id] ?? true}
-                            onChange={(event) =>
-                              setVisibleTeams((current) => ({
-                                ...current,
-                                [team.id]: event.target.checked,
-                              }))
-                            }
-                          />
-                          <span>{team.name}</span>
-                        </label>
-                        <input
-                          type="color"
-                          className="h-10 w-14 cursor-pointer rounded-xl border border-white/12 bg-transparent"
-                          value={getTeamColor(team.id, team.conferenceId, teamColors, conferenceColors)}
-                          onChange={(event) =>
-                            setTeamColors((current) => ({
-                              ...current,
-                              [team.id]: event.target.value,
-                            }))
-                          }
-                        />
+                      <div className="mt-3 space-y-2">
+                        {sortTeams(
+                          conference.teams.map((team) => ({
+                            ...team,
+                            conferenceId: conference.id,
+                            conferenceName: conference.name,
+                          })),
+                          sortMode === "conference" ? "name" : sortMode,
+                        ).map((team) => (
+                          <div
+                            key={team.id}
+                            className="cursor-grab rounded-[18px] border border-white/10 bg-slate-950/35 p-3 transition hover:bg-white/7 active:cursor-grabbing"
+                            draggable
+                            onDragStart={() => onDragTeamStart(team.id)}
+                            onDragEnd={() => setDraggingTeamId(null)}
+                          >
+                            <div className="flex items-center justify-between gap-3">
+                              <label className="flex items-center gap-3 text-sm font-medium text-slate-100">
+                                <input
+                                  type="checkbox"
+                                  checked={visibleTeams[team.id] ?? true}
+                                  onChange={(event) =>
+                                    setVisibleTeams((current) => ({
+                                      ...current,
+                                      [team.id]: event.target.checked,
+                                    }))
+                                  }
+                                />
+                                <span>{team.name}</span>
+                              </label>
+                              <input
+                                type="color"
+                                className="h-9 w-12 cursor-pointer rounded-xl border border-white/12 bg-transparent"
+                                value={getTeamColor(team.id, team.conferenceId, teamColors, conferenceColors)}
+                                onChange={(event) =>
+                                  setTeamColors((current) => ({
+                                    ...current,
+                                    [team.id]: event.target.value,
+                                  }))
+                                }
+                              />
+                            </div>
+                            <button
+                              className="mt-3 rounded-full border border-rose-300/20 px-3 py-1.5 text-xs text-rose-100 transition hover:bg-rose-400/10"
+                              onClick={() => deleteTeam(team.id)}
+                            >
+                              Delete team
+                            </button>
+                          </div>
+                        ))}
+
+                        {conference.teams.length === 0 && (
+                          <div className="rounded-[18px] border border-dashed border-white/12 bg-slate-950/20 px-3 py-4 text-center text-xs text-slate-400">
+                            No teams here yet. Drag a team into this conference to assign it.
+                          </div>
+                        )}
                       </div>
-                      <div className="mt-3 flex flex-wrap items-center gap-2 text-[11px] uppercase tracking-[0.18em] text-slate-400">
-                        <span className="rounded-full bg-white/6 px-2.5 py-1">{team.conferenceName}</span>
-                        <span className="rounded-full bg-white/6 px-2.5 py-1">{team.region}</span>
-                      </div>
-                      <button
-                        className="mt-3 rounded-full border border-rose-300/20 px-3 py-1.5 text-xs text-rose-100 transition hover:bg-rose-400/10"
-                        onClick={() => deleteTeam(team.id)}
-                      >
-                        Delete team
-                      </button>
                     </div>
                   ))}
                 </div>
