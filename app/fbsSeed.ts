@@ -24,6 +24,18 @@ type PreparedConference = {
   teams: PreparedTeam[];
 };
 
+type LeagueSeed = {
+  id: string;
+  name: string;
+  conferenceIds: string[];
+};
+
+type PreparedLeague = {
+  id: string;
+  name: string;
+  conferences: PreparedConference[];
+};
+
 type TeamCoordinate = {
   lat: number;
   lng: number;
@@ -261,6 +273,24 @@ const conferenceDefaultColors: Record<string, string> = {
 
 const teamDefaultColors: Record<string, string> = {};
 
+const leagueSeeds: LeagueSeed[] = [
+  {
+    id: "power",
+    name: "Power Leagues",
+    conferenceIds: ["acc", "big10", "big12", "sec"],
+  },
+  {
+    id: "group",
+    name: "Group Leagues",
+    conferenceIds: ["american", "cusa", "mac", "mountain-west", "pac-12", "sun-belt"],
+  },
+  {
+    id: "independent",
+    name: "Independent League",
+    conferenceIds: ["independents"],
+  },
+];
+
 const teamCoordinatesByName: Record<string, TeamCoordinate> = {
   "Boston College": { lat: 42.335104, lng: -71.1664413 },
   California: { lat: 37.8710434, lng: -122.2507729 },
@@ -415,6 +445,21 @@ function buildInitialConferences(): PreparedConference[] {
   }));
 }
 
+function buildInitialLeagues(conferences: PreparedConference[]): PreparedLeague[] {
+  const conferenceMap = Object.fromEntries(conferences.map((conference) => [conference.id, conference]));
+  return leagueSeeds.map((league) => ({
+    id: league.id,
+    name: league.name,
+    conferences: league.conferenceIds
+      .map((conferenceId) => conferenceMap[conferenceId])
+      .filter((conference): conference is PreparedConference => Boolean(conference))
+      .map((conference) => ({
+        ...conference,
+        teams: [...conference.teams],
+      })),
+  }));
+}
+
 function buildInitialTeamCoordinates(conferences: PreparedConference[]): Record<string, TeamCoordinate> {
   const coordinates: Record<string, TeamCoordinate> = {};
   for (const conference of conferences) {
@@ -426,5 +471,6 @@ function buildInitialTeamCoordinates(conferences: PreparedConference[]): Record<
 }
 
 export const initialConferences = buildInitialConferences();
+export const initialLeagues = buildInitialLeagues(initialConferences);
 export const initialTeamCoordinates = buildInitialTeamCoordinates(initialConferences);
 export { conferenceDefaultColors, teamDefaultColors };
